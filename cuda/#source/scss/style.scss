@@ -1,0 +1,58 @@
+// Файл обнуляющего стиля
+@import "nullestyle.scss";
+// Шрифты
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	flex: 1 1 auto;
+}
+@import "header.scss";
+.container {
+	max-width: 1102px;
+	margin: 0 auto;
+}
+@import "intro.scss";
+@import "services.scss";
+@import "team.scss";
+@import "skills.scss";
+	.social {
+	display: flex;
+	margin: 0px 0px 128px 0px;
+	justify-content: center;
+		&__item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 32px;
+			height: 32px;
+			margin: 0px 5px 0px 5px;
+			background-color: #bdd1df;
+			border: 1px solid #e8ecee;
+			border-radius: 50%;
+			transition: background-color .1s linear;
+			}
+		&__item:hover {
+			background-color: #e8ecee;
+			}
+		&__item:hover .social__icon {
+			fill: #e84545;
+			}
+		&__icon {
+			display: block;
+			height: 16px;
+			fill: #ffffff;
+			transition: fill .1s linear;
+			}
+	}
+	@import "portfolio.scss";
+	@import "reviews.scss";
+	@import "touch.scss";
+	@import "footer.scss";
+	
+	

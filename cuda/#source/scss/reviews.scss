@@ -1,0 +1,92 @@
+.reviews {
+	background-color: #d74680;
+		&__header {
+			max-width: 1099px;
+			margin: 0 auto;
+			padding: 119px 0px 82px 0px;
+			}
+		&__title {
+			padding: 0px 0px 21px 0px;
+			font-family: "Titillium Web";
+			font-size: 40px;
+			font-weight: bold;
+			line-height: 0.75;
+			letter-spacing: 4px;
+			text-align: center;
+			color: #ffffff;
+			text-transform: uppercase;
+			position: relative;
+				&::after {
+					content: '';
+					position: absolute;
+					bottom: 0;
+					width: 87px;
+					height: 4px;
+					left: 49%;
+					background-color: #000000;
+					opacity: 0.15;
+					margin: 0px 0px 0px -25px;
+					}
+					}
+		&__subtitle {
+			max-width: 149px;
+			margin: 0 auto;
+			font-family: "Titillium Web";
+			font-size: 18px;
+			line-height: 1.44;
+			letter-spacing: 0.36px;
+			text-align: center;
+			color: #ffffff;
+			padding-top: 23px;
+			white-space: nowrap;
+		}
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -8px;
+		}
+	&__column {
+		padding: 0 8px;
+		flex: 0 1 50%;
+		margin: 0px 0px 158px 0px;
+		}
+		}
+	.item__row {
+	display: flex;
+	}
+	.item__img {
+	flex: 0 0 96px;
+	}
+	.item__body {
+	flex: 1 1 auto;
+	padding: 11px 65px 2px 25px;
+	}
+	.item__text {
+	font-family: "Titillium Web";
+	font-size: 21px;
+	font-style: italic;
+	line-height: 1.48;
+	letter-spacing: 0.42px;
+	text-align: left;
+	color: #ffffff;
+	margin: 0px 0px 30px 0px;
+	}
+	.item__name {
+	font-family: "Titillium Web";
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.08;
+	letter-spacing: 0.48px;
+	text-align: left;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 0px 0px 10px 0px;
+	}
+	.item__profession {
+	font-family: "Titillium Web";
+	font-size: 18px;
+	line-height: 1.44;
+	letter-spacing: 0.36px;
+	text-align: left;
+	color: #ffdd99;
+	}

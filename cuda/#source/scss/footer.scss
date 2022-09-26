@@ -1,0 +1,25 @@
+.footer {
+	background-color: #344b8e;
+	&__row {
+		max-width: 940px;
+		margin: 0 auto;
+		}
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 49px 39px 41px 39px;
+		}
+	&__link {
+		font-family: "Titillium Web";
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 1.25;
+		letter-spacing: 0.48px;
+		text-align: center;
+		color: #ffffff;
+			&:hover {
+				color: #30bae7;
+				}
+				}
+				}

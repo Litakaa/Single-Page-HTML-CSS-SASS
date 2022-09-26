@@ -1,0 +1,41 @@
+.header {
+	background-color: #87509c;
+	padding: 70px 0px 0px 0px;
+		&__body {
+			display: flex;
+			height: 40px;
+			padding: 0px 27px 0px 41px;
+			flex-grow: 1;
+			}
+		&__logo {
+			display: inline-block;
+			width: 118px;
+			margin-right: 483px;
+			}
+		&__menu {
+			display: flex;
+			align-items: center;
+			flex-flow: row nowrap;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			}
+		&__menu-link {
+			font-family: "Titillium Web";
+			font-size: 16px;
+			line-height: 1.13;
+			color: #ffffff;
+			text-transform: uppercase;
+			margin-right: 22px;
+			padding: 9px 13px;
+				&:hover {
+				border: 3px solid #643a79;
+				color: #ffffff;
+				border-radius: 3px;
+				background-color: #643a79;
+				}
+				&:last-child {
+				margin-right: 0px;
+				}
+		}
+}

@@ -1,0 +1,155 @@
+.touch {
+	background-color: #3c5499;
+	&__header {
+		max-width: 940px;
+		margin: 0 auto;
+		padding: 120px 78px 76px 78px;
+		}
+	&__title {
+		padding: 0px 0px 21px 0px;
+		font-family: "Titillium Web";
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 0.75;
+		letter-spacing: 4px;
+		text-align: center;
+		color: #ffffff;
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			width: 87px;
+			height: 4px;
+			left: 49%;
+			background-color: #273a71;
+			margin: 0px 0px 0px -25px;
+			}
+			}
+	&__subtitle {
+		max-width: 782px;
+		margin: 0 auto;
+		font-family: "Titillium Web";
+		font-size: 18px;
+		line-height: 1.44;
+		letter-spacing: 0.36px;
+		text-align: center;
+		color: #ffffff;
+		padding: 23px 0px 0px 0px;
+		}
+	&__row {
+		padding: 0px 39px 0px 39px;
+		}
+	&__body {
+		max-width: 860px;
+		margin: 0 auto;
+		text-align: center;
+		}
+	&__name {
+		float: left;
+		background-color: #273a71;
+		border: 2px solid #273a71;
+		border-radius: 4px;
+		width: 414px;
+		margin-right: 32px;
+			input {
+				width: 100%;
+				background-color: #273a71;
+				padding: 21px 0px 18px 21px;
+				font-size: 18px;
+				line-height: 1;
+				text-align: left;
+				color: #ffffff;
+				font-family: "Titillium Web";
+				}
+			input::placeholder {
+				color: #ffffff;
+				font-family: "Titillium Web";
+				}
+			input:focus {
+				outline: 0;
+				background-color: #3c5499;
+				}
+				}
+	&__email {
+		float: left;
+		background-color: #273a71;
+		border: 2px solid #273a71;
+		border-radius: 4px;
+		width: 414px;
+		margin-bottom: 27px;
+			input {
+				width: 100%;
+				background-color: #273a71;
+				font-family: "Titillium Web";
+				font-size: 18px;
+				line-height: 1;
+				text-align: left;
+				color: #ffffff;
+				padding: 21px 0px 18px 21px;
+				}
+			input::placeholder {
+				color: #ffffff;
+				font-family: "Titillium Web";
+				}
+			input:focus {
+				outline: 0;
+				background-color: #3c5499;
+				}
+				}
+	&__message {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #273a71;
+		border: 2px solid #273a71;
+		border-radius: 4px;
+		width: 860px;
+			textarea {
+				width: 100%;
+				background-color: #273a71;
+				font-family: "Titillium Web";
+				font-size: 18px;
+				line-height: 1;
+				text-align: left;
+				color: #ffffff;
+				padding: 21px 0px 0px 21px;
+				}
+			textarea::placeholder {
+				color: #ffffff;
+				font-family: "Titillium Web";
+				}
+			textarea:focus {
+				outline: 0;
+				background-color: #3c5499;
+				}
+				}
+		&__btn {
+			display: inline-block;
+			margin: 59px 0px 115px 0px;
+			vertical-align: top;
+			overflow: hidden;
+			width: 293px;
+			height: 70px;
+			background-color: #30bae7;
+			border-radius: 4px;
+			transition: background .2s linear;
+			span {
+				padding: 25px 0px 25px 0px;
+				font-family: "Titillium Web";
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 1.44;
+				letter-spacing: 0.36px;
+				text-align: center;
+				color: #ffffff;
+				}
+			&:hover {
+				background-color: #273a71;
+				}
+			&:focus {
+				outline: 0;
+				}
+				}
+				}
+	

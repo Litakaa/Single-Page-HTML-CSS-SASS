@@ -1,0 +1,126 @@
+.portfolio {
+	background-color: #ffdd99;
+		&__header {
+			max-width: 1040px;
+			margin: 0 auto;
+			padding: 120px 0px 62px 0px;
+			}
+		&__title {
+			padding: 0px 0px 21px 0px;
+			font-family: "Titillium Web";
+			font-size: 40px;
+			font-weight: bold;
+			line-height: 0.75;
+			letter-spacing: 4px;
+			text-align: center;
+			color: #393939;
+			position: relative;
+				&::after {
+					content: '';
+					position: absolute;
+					bottom: 0;
+					width: 87px;
+					height: 4px;
+					left: 49%;
+					background-color: #e5c37f;
+					margin: 0px 0px 0px -25px;
+					}
+					}
+		&__subtitle {
+			max-width: 515px;
+			margin: 0 auto;
+			font-family: "Titillium Web";
+			font-size: 18px;
+			line-height: 1.44;
+			letter-spacing: 0.36px;
+			text-align: center;
+			color: #393939;
+			padding-top: 23px;
+			padding-bottom: 42px;
+			}
+		&__list {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-flow: row nowrap;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			}
+		&__list-link {
+			font-family: "Titillium Web";
+			font-size: 18px;
+			line-height: 1.08;
+			letter-spacing: 0.36px;
+			text-align: center;
+			color: #393939;
+			margin-right: 10px;
+			padding: 12px 27px;
+			background-color: #e5c37f;
+				&:hover {
+					border: 3px solid #ffff;
+					color: #393939;
+					border-radius: 4px;
+					background-color: #ffff;
+					}
+					}
+		&__row {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0px 20px 0px 0px;
+			}
+		&__column {
+			flex: 0 1 50%;
+			}
+		&__item {
+			display: flex;
+			flex-wrap: wrap;
+			}
+		&__item__icon img {
+			flex: 0 0 541px;
+			object-fit: cover;
+			}
+		&__text {
+			flex: 1 1 auto;
+			padding: 32px 0px 64px 0px;
+			font-family: "Titillium Web";
+			font-size: 18px;
+			line-height: 1.08;
+			letter-spacing: 0.36px;
+			text-align: center;
+			color: #393939;
+			text-transform: uppercase;
+			}
+		&__button {
+			max-width: 293px;
+			margin: 0 auto;
+			}
+		&__btn {
+			display: inline-block;
+			vertical-align: top;
+			overflow: hidden;
+			margin-bottom: 109px;
+			width: 293px;
+			height: 70px;
+			padding: 25px 58px 25px 58px;
+			border-radius: 4px;
+			cursor: pointer;
+			background-color: #17c2a4;
+			span {
+				font-family: "Titillium Web";
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 1.44;
+				letter-spacing: 0.36px;
+				text-align: center;
+				color: #ffffff;
+				white-space: nowrap;
+				text-transform: uppercase;
+				text-decoration: none;
+				}
+			&:hover {
+				background-color: #0f7e69;
+				transition: background-color 1s linear 0.5;
+				}
+				}
+				}
